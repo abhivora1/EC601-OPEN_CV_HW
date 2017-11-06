@@ -12,7 +12,7 @@ OpenCV, treats matrices in ROW-major order. I.e. the access is defined as (ROW, 
 
 Therefore if we need to access element (i,j) in the matrix then:
 
-  cv::Mat matrix1(2, 3, CV_32FC1, 0.0f);  //create a 2 row, 3 column matrix with all 0.0
+  	cv::Mat matrix1(2, 3, CV_32FC1, 0.0f);  //create a 2 row, 3 column matrix with all 0.0
 	matrix1.at<float>(1,0) = 2; // accessing element (1,0) and assign it 2.
 	cout << m << endl;
 
