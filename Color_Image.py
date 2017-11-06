@@ -56,5 +56,5 @@ print ('Pixel Value for YCrCb at [20,25] ')
 print (value)
 
 
-cv2.waitKey(1000)
+cv2.waitKey(0)
 
