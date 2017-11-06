@@ -1,5 +1,5 @@
 # EC601-OPEN_CV_HW
-
+ALL THE THEORY QUESTIONS OF THE EXERCISES ARE WRITTEN IN THS FILE.
 
 EXERCISE 1
 
@@ -37,4 +37,13 @@ The Python file(Color_Image.py) is located in the files above.
 
 The range of pixel values are 0-255 in all the 3 colorspaces. 
    
+   
+  
+  
+EXERCISE 4
+
+The disadvantage of Binary Thresholding is that cuts the color spectrum in two equal parts, which makes it difficult to observe the brightness in the picture. Due to this technique there is a loss of image details as well which might not be desired.
+
+The advantage of Adaptive Threshold is that, it can be added to multiple thresholds which is desireable during imagae processing. It can also help when there are multiple lighting conditions within a single image.
+ 
    
